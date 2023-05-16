@@ -4,9 +4,12 @@ function RecipeForm({addRecipe}) {
 
   const formTemplate = {
     label: "",
-    healthLabel: "",
+    healthLabels: "",
+    ingredients: "",
     recipe: "",
     image: "",
+    mealType: "",
+    
   }
 
   const [form, setForm] = useState(formTemplate)
@@ -26,15 +29,10 @@ function RecipeForm({addRecipe}) {
     //console.log(form)
     fetch("http://localhost:3000/myRecipes", {
       method: 'POST',
-      mode: 'no-cors',
-      headers: {
-        "content-type" : "application/json",
-      body: JSON.stringify(form)
-      }
-    })
+      headers: {"content-type" : "application/json"},
+      body: JSON.stringify({recipe:form})})
     .then(res => res.json())
-    .then(data => {
-        console.log(data)
+    .then(data => {console.log(data)
     //   addRecipe(data)
     //   setForm(formTemplate)
     })
@@ -56,10 +54,10 @@ function RecipeForm({addRecipe}) {
        className="new-recipe-form-input"
        />
        <input 
-       value= {form.healthLabel} 
+       value= {form.healthLabels} 
        type="text" 
-       name="healthLabel"  
-       placeholder="Health Label" 
+       name="healthLabels"  
+       placeholder="Health Labels" 
        onChange={(e) => handleChange(e)}
        className="new-recipe-form-input"
        />

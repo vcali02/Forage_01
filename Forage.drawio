@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="QxxpMJJGGrtlQuk_RLr5" name="Page-1">
-        <mxGraphModel dx="1312" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="957" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -15,28 +15,28 @@
                 <mxCell id="20" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4" target="19" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="22">
+                <mxCell id="23" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4" target="22" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="4" value="App&lt;br&gt;(Header with routes in here)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="323" y="30" width="205" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="6" value="Search&lt;br&gt;(GET from public API)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="700" y="240" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="720" y="250" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7" target="8" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="610" y="250" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="21" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7" target="6">
+                <mxCell id="21" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7" target="6" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="RecipeList&lt;br&gt;(can switch back and forth from favorites to search results)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="610" y="140" width="170" height="60" as="geometry"/>
+                <mxCell id="7" value="RecipeList&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="140" width="170" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" value="Recipe Card" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="500" y="240" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="490" y="260" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="17" value="AddRecipe&lt;br&gt;(POSTs to local db.json)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="240" y="140" width="120" height="60" as="geometry"/>
@@ -44,11 +44,13 @@
                 <mxCell id="19" value="About&lt;br&gt;(info about the App)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="80" y="140" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="22" target="8">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="27" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="22" target="8">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="460" y="250" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="22" value="MyRecipes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="425" y="140" width="120" height="60" as="geometry"/>
+                <mxCell id="22" value="MyRecipes" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="140" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
